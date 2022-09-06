@@ -1,24 +1,10 @@
 # clean-architecture
 
-## Project setup
-```
-npm install
-```
+Vue3 + Typescript + Pinia + OpenAPI Generator
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# OpenAPI generator typescript-axios
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## references
+- https://zenn.dev/offers/articles/20220620-openapi-generator
+- https://openapi-generator.tech/docs/generators/typescript-axios/
+- https://github.com/OpenAPITools/openapi-generator

@@ -1,5 +1,5 @@
 import { AccountingInfo } from "./../data/AccountingInfo.data";
-
+import { DateTimeApi } from "../../types/resources/api/date-time-api";
 /** 現在ログインしているアカウントのリポジトリ */
 /**
  * アカウント情報を取得する
@@ -12,8 +12,10 @@ import { AccountingInfo } from "./../data/AccountingInfo.data";
 //   console.log("login Token is ", loginToken);
 // }
 
-export function get(loginToken: string): void {
+export async function get(loginToken: string) {
   console.log("login Token is ", loginToken);
+  const response = await new DateTimeApi().getDateTime();
+  return response;
 }
 
 export async function post(loginToken: string): Promise<any> {
